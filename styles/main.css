@@ -159,6 +159,12 @@ nav h2 {
     border-radius: 21px;
 }
 
+.line1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 255px;
+}
+
 .line {
     background-image: url("../img/line.svg");
     width: 105px;
