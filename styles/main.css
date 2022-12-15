@@ -180,9 +180,10 @@ nav h2 {
 }
 
 .bitcoin {
+    padding: 35px;
     display: grid;
-    grid-template-columns: 173px 173px;
-    grid-template-rows: 70px 50px 50px 50px;
+    grid-template-columns: 160px 138px;
+    grid-template-rows: 70px 60px 60px 60px;
     grid-template-areas:
     "a a"
     "b c"
@@ -192,6 +193,10 @@ nav h2 {
 
 .a {
     grid-area: a;
+    background-image: url(../img/btc2.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
 
 .b {
@@ -214,20 +219,38 @@ nav h2 {
     grid-area: f;
 }
 
+.main_info h3 {
+    margin-left: 45px;
+    margin-top: 20px;
+    color: #333333;
+    font-size: 25px;
+    line-height: 31px;
+}
+
 .main_info p {
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
     color: #4F4F4F;
+    margin-bottom: 3px;
 }
 
 .main_info span {
     font-size: 20px;
     line-height: 24px;
-    display: flex;
-    text-align: center;
+    font-weight: 600;
     color: #333333;
 }
+
+.main_info a {
+    color: #2F80ED;
+}
+
+.main_info .arrow {
+    background-image: url(../img/arrow_blue.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 
 .bitcoin, .litecoin, .dash {
     background: #FFFFFF;
