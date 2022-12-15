@@ -180,7 +180,11 @@ nav h2 {
 }
 
 .bitcoin {
-    padding: 35px;
+    padding: 10px 35px;
+    
+}
+
+.bitcoin_grid {
     display: grid;
     grid-template-columns: 160px 138px;
     grid-template-rows: 70px 60px 60px 60px;
@@ -232,6 +236,7 @@ nav h2 {
     line-height: 17px;
     color: #4F4F4F;
     margin-bottom: 3px;
+    margin-top: 0px;
 }
 
 .main_info span {
@@ -243,12 +248,24 @@ nav h2 {
 
 .main_info a {
     color: #2F80ED;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
 }
 
 .main_info .arrow {
     background-image: url(../img/arrow_blue.svg);
     background-repeat: no-repeat;
     background-position: right;
+    width: 160px;
+    margin-bottom: 30px;
+}
+
+.main_info button {
+    width: 276px;
+    height: 42px;
+    border-radius: 5px;
+    margin-bottom: 12px;
 }
 
 
