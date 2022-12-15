@@ -1,0 +1,195 @@
+.main_container {
+    max-width: 1920px;
+    background-image: url(../img/fon.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+.currents {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 1155px;
+    padding-top: 9px;
+    margin: 0;
+}
+
+.currents_info {
+    width: 642px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.language {
+    width: 91px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 9px 0px 8px 0px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+}
+
+.logo {
+    width: 41px;
+    height: 41px;
+    background-image: url(../img/logo.svg);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 39px;
+}
+
+nav h2 {
+    padding-left: 13px;
+}
+
+.logo_name {
+    margin-right: 61px;
+}
+
+.bt_btc {
+    width: 105px;
+    height: 35px;
+    margin-right: 57px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 5px;
+    background: content-box;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bt_user {
+    width: 157px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+}
+
+/* Section Hero --- Section Hero --- Section Hero */
+/*
+.laptop_img {
+    background-image: url(/img/laptop.svg);
+    background-repeat: no-repeat;
+    height: 465px;
+    width: 580px;
+    background-size: cover;
+    background-position: center;
+}*/
+
+.hero > .container > h3 {
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    width: 511px;
+}
+
+.hero > .container > h5 {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}
+
+.hero > .container > img {
+    position: absolute;
+    top: 110px;
+    right: 160px;
+}
+
+.registration {
+    width: 223px;
+    height: 42px;
+    background: #ffffff;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 21px;
+}
+
+.line {
+    background-image: url("../img/line.svg");
+    width: 105px;
+    height: 2px;
+}
+
+/* --- Section "main_info" --- */
+
+.main_info {
+    margin-top: 400px;
+}
+
+.main_info > .container {
+    display: grid;
+    grid-template-columns: 346px 346px 346px;
+    grid-template-rows: 436px;
+    justify-content: space-between;
+
+}
+
+.bitcoin {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 70px 50px 50px 50px;
+    grid-template-areas:
+    "a a"
+    "b c"
+    "d e"
+    "f f";
+}
+
+.litecoin {
+}
+
+.dash {
+}
+
+.bitcoin, .litecoin, .dash {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px #D5D5E3;
+    border-radius: 5px;
+    color: black;
+}
