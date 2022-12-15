@@ -1,10 +1,16 @@
 .main_container {
     max-width: 1920px;
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+main {
     background-image: url(../img/fon.svg);
     background-repeat: no-repeat;
     background-position: top;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
+    height: 1006px;
 }
 
 .container {
@@ -68,6 +74,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-right: 39px;
+    width: 100%;
 }
 
 nav h2 {
@@ -101,12 +108,14 @@ nav h2 {
 .nav_menu {
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+    width: calc(100%/12*9);
 }
 
 .logo_container {
     display: flex;
     align-items: center;
+    width: calc(100%/12*3);
 }
 
 /* Section Hero --- Section Hero --- Section Hero */
@@ -159,7 +168,7 @@ nav h2 {
 /* --- Section "main_info" --- */
 
 .main_info {
-    margin-top: 400px;
+    margin-top: -70px;
 }
 
 .main_info > .container {
@@ -172,7 +181,7 @@ nav h2 {
 
 .bitcoin {
     display: grid;
-    grid-template-columns: 120px 120px;
+    grid-template-columns: 173px 173px;
     grid-template-rows: 70px 50px 50px 50px;
     grid-template-areas:
     "a a"
