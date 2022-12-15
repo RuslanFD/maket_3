@@ -214,10 +214,19 @@ nav h2 {
     grid-area: f;
 }
 
-.litecoin {
+.main_info p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4F4F4F;
 }
 
-.dash {
+.main_info span {
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    text-align: center;
+    color: #333333;
 }
 
 .bitcoin, .litecoin, .dash {
