@@ -268,6 +268,21 @@ nav h2 {
     margin-bottom: 12px;
 }
 
+.start {
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%);
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+}
+
+.rewiew {
+    color: #5639B7;
+    border: 1px solid #5639B7;
+    font-weight: 600;
+}
+
 
 .bitcoin, .litecoin, .dash {
     background: #FFFFFF;
