@@ -192,7 +192,7 @@ nav h2 {
 
 .main_cripto {
     margin-top: -81px;
-    margin-bottom: 83px;
+    margin-bottom: 81px;
 }
 
 .main_cripto > .container {
@@ -328,7 +328,7 @@ nav h2 {
     background: #FFFFFF;
     box-shadow: 0px 0px 35px #D5D5E3;
     border-radius: 5px;
-    padding: 23px 20px;
+    padding: 8px 20px;
 }
 
 .main_news > .container {
@@ -341,7 +341,7 @@ nav h2 {
 .news_header {
     width: 1155px;
     margin: 0 auto;
-    margin-bottom: 39px;
+    margin-bottom: 36px;
 }
 
 .news_header h3 {
@@ -363,30 +363,35 @@ nav h2 {
     margin-top: -4px;
 }
 
-.advertisement h3 {
+.advertisement h3, .news h3, .actions h3 {
     font-size: 14px;
     line-height: 13px;
     letter-spacing: 0.02em;
     color: #449ED1;
 }
 
-.advertisement h2 {
+.advertisement h2, .news h2, .actions h2 {
     font-size: 24px;
     line-height: 31px;
     letter-spacing: 0.05em;
     color: #333333;
+    margin-top: 0px;
 }
 
-.advertisement p {
+.advertisement p, .news p, .actions p {
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.05em;
     color: #333333;
 }
 
-.advertisement span {
+.advertisement span, .news span, .actions span {
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.05em;
     color: #AFAFAF;
+}
+
+.height_grid_news {
+    min-height: 267px;
 }
