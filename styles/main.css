@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;0,900;1,500;1,600;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 .main_container {
     max-width: 1920px;
     background: #E5E5E5;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
-    padding: 5px;
+    padding: 0px 5px;
+    height: 4000px;
 }
 
 main {
@@ -53,8 +56,9 @@ a {
     text-decoration: none;
 }
 
-hr {
+header hr {
     margin: 0;
+    border: 1px solid rgba(244, 244, 249, 0.5);
 }
 
 .logo {
@@ -67,6 +71,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 11px;
 }
 
 nav ul {
@@ -75,6 +80,13 @@ nav ul {
     justify-content: space-between;
     margin-right: 39px;
     width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;  
+}
+
+.main_href {
+    border-bottom: 2px solid #ffffff;
 }
 
 nav h2 {
@@ -89,11 +101,15 @@ nav h2 {
     width: 105px;
     height: 35px;
     margin-right: 57px;
+    margin-left: 66px;
     border: 1.5px solid #FFFFFF;
     border-radius: 5px;
     background: content-box;
     color: #FFFFFF;
     cursor: pointer;
+    background-image: url(../img/btc.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
 }
 
 .bt_user {
@@ -103,31 +119,30 @@ nav h2 {
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+    background-image: url(../img/user_img.svg);
+    background-repeat: no-repeat;
+    background-position: 21px;
 }
 
 .nav_menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(100%/12*9);
+    width: calc(100%/12*10);
 }
 
 .logo_container {
     display: flex;
     align-items: center;
-    width: calc(100%/12*3);
+    width: calc(100%/12*2);
 }
 
 /* Section Hero --- Section Hero --- Section Hero */
-/*
-.laptop_img {
-    background-image: url(/img/laptop.svg);
-    background-repeat: no-repeat;
-    height: 465px;
-    width: 580px;
-    background-size: cover;
-    background-position: center;
-}*/
+
+.hero > .container {
+    position: relative;
+    margin-top: 135px;
+}
 
 .hero > .container > h3 {
     font-size: 24px;
@@ -139,7 +154,7 @@ nav h2 {
 }
 
 .hero > .container > h5 {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.05em;
     font-weight: 400;
@@ -147,8 +162,8 @@ nav h2 {
 
 .hero > .container > img {
     position: absolute;
-    top: 110px;
-    right: 160px;
+    top: -86px;
+    right: -71px;
 }
 
 .registration {
@@ -157,12 +172,14 @@ nav h2 {
     background: #ffffff;
     border: 1.5px solid #FFFFFF;
     border-radius: 21px;
+    cursor: pointer;
+    margin-top: 2px;
 }
 
 .line1 {
     display: flex;
     justify-content: center;
-    margin-top: 255px;
+    margin-top: 132px;
 }
 
 .line {
@@ -171,13 +188,14 @@ nav h2 {
     height: 2px;
 }
 
-/* --- Section "main_info" --- */
+/* --- Section "main_info_cripto" --- */
 
-.main_info {
-    margin-top: -70px;
+.main_cripto {
+    margin-top: -81px;
+    margin-bottom: 83px;
 }
 
-.main_info > .container {
+.main_cripto > .container {
     display: grid;
     grid-template-columns: 346px 346px 346px;
     grid-template-rows: 436px;
@@ -185,12 +203,25 @@ nav h2 {
 
 }
 
-.bitcoin {
-    padding: 10px 35px;
-    
+.bitcoin .a {
+    background-image: url(../img/btc2.svg);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
-.bitcoin_grid {
+.litecoin .a {
+    background-image: url(../img/ltc2.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.dash .a {
+    background-image: url(../img/dash2.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.cripto_grid {
     display: grid;
     grid-template-columns: 160px 138px;
     grid-template-rows: 70px 60px 60px 60px;
@@ -203,33 +234,24 @@ nav h2 {
 
 .a {
     grid-area: a;
-    background-image: url(../img/btc2.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-
 }
-
 .b {
     grid-area: b;
 }
-
 .c {
     grid-area: c;
 }
-
 .d {
     grid-area: d;
 }
-
 .e {
     grid-area: e;
 }
-
 .f {
     grid-area: f;
 }
 
-.main_info h3 {
+.main_cripto h3 {
     margin-left: 45px;
     margin-top: 20px;
     color: #333333;
@@ -237,7 +259,7 @@ nav h2 {
     line-height: 31px;
 }
 
-.main_info p {
+.main_cripto p {
     font-size: 14px;
     line-height: 17px;
     color: #4F4F4F;
@@ -245,33 +267,33 @@ nav h2 {
     margin-top: 0px;
 }
 
-.main_info span {
+.main_cripto span {
     font-size: 20px;
     line-height: 24px;
     font-weight: 600;
     color: #333333;
 }
 
-.main_info a {
+.main_cripto a {
     color: #2F80ED;
     font-size: 14px;
     line-height: 17px;
     font-weight: 600;
 }
 
-.main_info .arrow {
+.main_cripto .arrow {
     background-image: url(../img/arrow_blue.svg);
     background-repeat: no-repeat;
     background-position: right;
     width: 160px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
 }
 
-.main_info button {
+.main_cripto button {
     width: 276px;
     height: 42px;
     border-radius: 5px;
-    margin-bottom: 12px;
+    margin-bottom: 11px;
 }
 
 .start {
@@ -281,12 +303,14 @@ nav h2 {
     font-size: 14px;
     line-height: 17px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .rewiew {
     color: #5639B7;
     border: 1px solid #5639B7;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -294,5 +318,75 @@ nav h2 {
     background: #FFFFFF;
     box-shadow: 0px 0px 35px #D5D5E3;
     border-radius: 5px;
-    color: black;
+    padding: 10px 35px;
+
+}
+
+/* --- Section "main_news" --- */
+
+.advertisement, .news, .actions {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px #D5D5E3;
+    border-radius: 5px;
+    padding: 23px 20px;
+}
+
+.main_news > .container {
+    display: grid;
+    grid-template-columns: 346px 346px 346px;
+    grid-template-rows: 324px;
+    justify-content: space-between;
+}
+
+.news_header {
+    width: 1155px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+
+.news_header h3 {
+    color: #333333;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.news_header hr {
+    margin: 0;
+    border: 1px solid #CCD4DC;
+}
+
+.blue_line {
+    width: 346px;
+    height: 5px;
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%), #C4C4C4;
+    border-radius: 3px;
+    margin-top: -4px;
+}
+
+.advertisement h3 {
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    color: #449ED1;
+}
+
+.advertisement h2 {
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.advertisement p {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.advertisement span {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #AFAFAF;
 }

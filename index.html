@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;0,900;1,500;1,600;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
     <title>Document</title>
 </head>
@@ -19,6 +18,7 @@
                         <ul class="currents_info">
                             <li>2018-11-02</li>
                             <li><b>10:54</b></li>
+                            <br>
                             <li><b>BITCOIN</b></li>
                             <li><b>CNY</b>: 43713.95</li>
                             <li><b>EUR</b>: 5553.60</li>
@@ -44,7 +44,7 @@
                                 <button type="button" class="bt_btc">BTC</button>
                             </form>
                             <ul>
-                                <li><a href="#">Головна</a></li>
+                                <li class="main_href"><a href="#">Головна</a></li>
                                 <li><a href="#">Магазин</a></li>
                                 <li><a href="#">Статистика</a></li>
                                 <li><a href="#">Блоки</a></li>
@@ -61,30 +61,30 @@
             <section class="hero">
                 <div class="container">
                     <h3>
-                        PPS НА SIGMAPOOL! ПОЛУЧАЙТЕ 
-                        <br>СТАБИЛЬНО 103% PPS ИЛИ 
+                        PPS НА SIGMAPOOL! ОТРИМУЙТЕ 
+                        <br>СТАБИЛЬНО 103% PPS АБО 
                         <br>105% PPLNS
                     </h3>
                     <h5>
-                            Мы запустили PPS - более удобную для большинства майнеров схему начислений. 
-                        <br>PPLNS остается доступным для хардкорных майнеров. Переключить схему 
-                        <br>можно на странице настроек в личном кабинете. Присоединяйтесь сейчас и 
-                        <br>получайте сверхнаграды! Период бонусов ограничен
+                        Ми запустили PPS - больш зручну для більшості майнерів схему нарахувань. 
+                        <br>PPLNS залишається доступним для хардкорних майнерів. Переключити схему 
+                        <br>можна на сторінці налаштувань в особистому кабінеті. Приєднуйтесь зараз та 
+                        <br>отримуйте супернагороди! Період бонусів обмежений
                     </h5>
                     <img src="./img/laptop.svg">
-                    <button type="button" class="registration">
-                        Реєстрація
-                    </button>
+                    <form>
+                        <button type="button" class="registration">Реєстрація</button>
+                    </form>
                     <div class="line1">
                         <div class="line"></div>
                     </div>
                 </div>
             </section>
         </main>
-        <section class="main_info">
+        <section class="main_cripto">
             <div class="container">
                 <div class="bitcoin">
-                    <div class="bitcoin_grid">
+                    <div class="cripto_grid">
                         <div class="a">
                             <h3>Bitcoin</h3>
                         </div>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="e">
                             <p>Вартість USD</p>
-                            <span>8995</span>
+                            <span>8995 $</span>
                         </div>
                         <div class="f">
                             <p>Дохідність за останні 24 години</p>
@@ -112,15 +112,96 @@
                     <div class="arrow">
                         <a href="#">Більше інформації</a>
                     </div>
-                    <button type="button" class="start">
-                        Швидкий старт
-                    </button>
-                    <button type="button" class="rewiew">
-                        Огляд
-                    </button>
+                    <button type="button" class="start">Швидкий старт</button>
+                    <button type="button" class="rewiew">Огляд</button>
                 </div>
-                <div class="litecoin">2</div>
-                <div class="dash">3</div>
+                <div class="litecoin">
+                    <div class="cripto_grid">
+                        <div class="a">
+                            <h3>Litecoin</h3>
+                        </div>
+                        <div class="b">
+                            <p>Хешрейт пула</p>
+                            <span>1309.93 GH/s</span>
+                        </div>
+                        <div class="c">
+                            <p>Кі-сть майнерів</p>
+                            <span>34</span>
+                        </div>
+                        <div class="d">
+                            <p>Вартість LTC</p>
+                            <span>1 LTC</span>
+                        </div>
+                        <div class="e">
+                            <p>Вартість USD</p>
+                            <span>49.93 $</span>
+                        </div>
+                        <div class="f">
+                            <p>Дохідність за останні 24 години</p>
+                            <span>0.00006124 LTC / MH/s</span>
+                        </div>
+                    </div>
+                    <div class="arrow">
+                        <a href="#">Більше інформації</a>
+                    </div>
+                    <button type="button" class="start">Швидкий старт</button>
+                    <button type="button" class="rewiew">Огляд</button>
+                </div>
+                <div class="dash">
+                    <div class="cripto_grid">
+                        <div class="a">
+                            <h3>Dash</h3>
+                        </div>
+                        <div class="b">
+                            <p>Хешрейт пула</p>
+                            <span>1647.31 GH/s</span>
+                        </div>
+                        <div class="c">
+                            <p>Кі-сть майнерів</p>
+                            <span>10</span>
+                        </div>
+                        <div class="d">
+                            <p>Вартість DASH</p>
+                            <span>1 DASH</span>
+                        </div>
+                        <div class="e">
+                            <p>Вартість USD</p>
+                            <span>152.24 $</span>
+                        </div>
+                        <div class="f">
+                            <p>Дохідність за останні 24 години</p>
+                            <span>0.00015428 DASH / GH/s</span>
+                        </div>
+                    </div>
+                    <div class="arrow">
+                        <a href="#">Більше інформації</a>
+                    </div>
+                    <button type="button" class="start">Швидкий старт</button>
+                    <button type="button" class="rewiew">Огляд</button>
+                </div>
+            </div>
+        </section>
+        <section class="main_news">
+            <div class="news_header">
+                <h3>News</h3>
+                <hr>
+                <div class="blue_line"></div>
+            </div>
+            <div class="container">
+                <div class="advertisement">
+                    <h3>ОГОЛОШЕННЯ</h3>
+                    <h2>
+                        КОМПЕНСАЦІЇ ЗА 2 ЛИСТОПАДА!
+                    </h2>
+                    <p>
+                        Ми запустили PPS - больш зручну для більшості майнерів схему нарахувань PPLNS залишається доступним. З повагою, команда SigmaPool!
+                    </p>
+                    <span>
+                        Понеділок, 02 Вересня 
+                    </span>
+                </div>
+                <div class="news"></div>
+                <div class="actions"></div>
             </div>
         </section>
     </div>
