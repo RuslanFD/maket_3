@@ -324,6 +324,10 @@ nav h2 {
 
 /* --- Section "main_news" --- */
 
+.main_news {
+    margin-bottom: 54px;
+}
+
 .advertisement, .news, .actions {
     background: #FFFFFF;
     box-shadow: 0px 0px 35px #D5D5E3;
@@ -350,7 +354,7 @@ nav h2 {
     line-height: 36px;
 }
 
-.news_header hr {
+.news_header hr, .hr_blue_line {
     margin: 0;
     border: 1px solid #CCD4DC;
 }
@@ -367,7 +371,18 @@ nav h2 {
     font-size: 14px;
     line-height: 13px;
     letter-spacing: 0.02em;
+}
+
+.advertisement h3 {
     color: #449ED1;
+}
+
+.news h3 {
+    color: #EB5757;
+}
+
+.actions h3 {
+    color: #E8B92A;
 }
 
 .advertisement h2, .news h2, .actions h2 {
@@ -394,4 +409,93 @@ nav h2 {
 
 .height_grid_news {
     min-height: 267px;
+}
+
+.tweets_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1155px;
+    margin: 0 auto;
+    margin-bottom: -7px;
+}
+
+.tweets_header h3 {
+    color: #333333;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.bt_read {
+    width: 107px;
+    height: 38px;
+    border-radius: 21px;
+    border: 1.5px solid #5639B7;
+    background: border-box;
+    color: #5639B7;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.tweets_container {
+    max-width: 1155px;
+    margin: 0 auto;
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 346px 346px 346px;
+    grid-template-rows: 324px;
+    justify-content: space-between;
+}
+
+.tweet_autor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tweet_autor h4 {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #2F80ED;
+}
+
+.tweet_autor span {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #AFAFAF;
+}
+
+.tweet_contents p {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #333333;
+    margin-top: -6px;
+}
+
+.tweet_contents span {
+    color:#005DE8;
+}
+
+.tweet_1_img, .tweet_2_img, .tweet_3_img {
+    width: 346px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 0px 35px #D5D5E3);
+    border-radius: 5px;
+}
+
+.tweet_1_img {
+    background-image: url("../img/tweet1.svg");
+}
+
+.tweet_2_img {
+    background-image: url("../img/tweet2.svg");
+}
+
+.tweet_3_img {
+    background-image: url("../img/tweet3.svg");
 }
