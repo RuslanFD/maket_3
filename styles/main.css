@@ -6,7 +6,6 @@
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     padding: 0px 5px;
-    height: 4000px;
 }
 
 main {
@@ -536,6 +535,10 @@ footer {
     background-repeat: no-repeat;
     background-position: 10px;
     margin-left: 21px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+
 }
 
 footer ul {
