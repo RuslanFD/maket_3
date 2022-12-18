@@ -5,7 +5,6 @@
     background: #E5E5E5;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
-    padding: 0px 5px;
 }
 
 main {
@@ -16,8 +15,10 @@ main {
 }
 
 .container {
-    max-width: 1155px;
+    max-width: 1175px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .currents {
@@ -25,7 +26,9 @@ main {
     flex-wrap: nowrap;
     justify-content: space-between;
     font-size: 14px;
-    width: 1155px;
+    max-width: 1175px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 9px;
     margin: 0;
 }
@@ -202,7 +205,6 @@ nav h2 {
     grid-template-columns: 346px 346px 346px;
     grid-template-rows: 436px;
     justify-content: space-between;
-
 }
 
 .bitcoin .a {
@@ -321,7 +323,6 @@ nav h2 {
     box-shadow: 0px 0px 35px #D5D5E3;
     border-radius: 5px;
     padding: 10px 35px;
-
 }
 
 /* --- Section "main_news" --- */
@@ -345,7 +346,9 @@ nav h2 {
 }
 
 .news_header {
-    width: 1155px;
+    max-width: 1175px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     margin-bottom: 37px;
 }
@@ -359,6 +362,7 @@ nav h2 {
 .news_header hr, .hr_blue_line {
     margin: 0;
     border: 1px solid #CCD4DC;
+    background-color: #CCD4DC;
 }
 
 .blue_line {
@@ -366,7 +370,7 @@ nav h2 {
     height: 5px;
     background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%), #C4C4C4;
     border-radius: 3px;
-    margin-top: -5px;
+    margin-top: -4px;
 }
 
 .advertisement h3, .news h3, .actions h3 {
@@ -417,7 +421,9 @@ nav h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1155px;
+    max-width: 1175px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     margin-bottom: -7px;
 }
@@ -442,7 +448,9 @@ nav h2 {
 }
 
 .tweets_container {
-    max-width: 1155px;
+    max-width: 1175px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     margin-top: 12px;
     display: grid;
@@ -512,7 +520,9 @@ footer {
 }
 
 .footer_container {
-    max-width: 1155px;
+    max-width: 1175px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -568,4 +578,15 @@ footer span {
     opacity: 0.6;
     font-size: 14px;
     line-height: 17px;
+}
+
+footer hr {
+    border: 1px solid #CCD4DC;
+    background-color: #CCD4DC;
+}
+
+
+
+@media screen and (max-width: 1099px) {
+    
 }
