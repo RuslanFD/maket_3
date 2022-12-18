@@ -122,6 +122,9 @@ nav h2 {
     background-image: url(../img/user_img.svg);
     background-repeat: no-repeat;
     background-position: 21px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5639B7;
 }
 
 .nav_menu {
@@ -345,7 +348,7 @@ nav h2 {
 .news_header {
     width: 1155px;
     margin: 0 auto;
-    margin-bottom: 36px;
+    margin-bottom: 37px;
 }
 
 .news_header h3 {
@@ -364,7 +367,7 @@ nav h2 {
     height: 5px;
     background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%), #C4C4C4;
     border-radius: 3px;
-    margin-top: -4px;
+    margin-top: -5px;
 }
 
 .advertisement h3, .news h3, .actions h3 {
@@ -430,11 +433,13 @@ nav h2 {
     width: 107px;
     height: 38px;
     border-radius: 21px;
-    border: 1.5px solid #5639B7;
+    border: 2px solid #5639B7;
     background: border-box;
     color: #5639B7;
     font-size: 14px;
+    font-weight: 600;
     line-height: 17px;
+    cursor: pointer;
 }
 
 .tweets_container {
@@ -498,4 +503,66 @@ nav h2 {
 
 .tweet_3_img {
     background-image: url("../img/tweet3.svg");
+}
+
+/* --- F-O-O-T-E-R --- */
+
+footer {
+    background-color: #FFFFFF;
+    height: 123px;
+}
+
+.footer_container {
+    max-width: 1155px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #333333;
+    margin-top: 83px;
+    padding-top: 18px;
+}
+
+
+.bt_btc_ft {
+    width: 105px;
+    height: 35px;
+    border: 1.5px solid #CCD4DC;
+    border-radius: 5px;
+    background: content-box;
+    color: #333333;
+    cursor: pointer;
+    background-image: url(../img/btc.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    margin-left: 21px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 539px;
+    padding-top: 16px;
+    padding-bottom: 25px;
+}
+
+footer a {
+    color: #333333;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+} 
+
+.menu_color {
+    color: #333333;
+    opacity: 0.6;
+
+}
+
+footer span {
+    color: #333333;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 17px;
 }
