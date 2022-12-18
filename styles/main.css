@@ -15,10 +15,8 @@ main {
 }
 
 .container {
-    max-width: 1175px;
+    max-width: 1155px;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .currents {
@@ -26,9 +24,7 @@ main {
     flex-wrap: nowrap;
     justify-content: space-between;
     font-size: 14px;
-    max-width: 1175px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1155px;
     padding-top: 9px;
     margin: 0;
 }
@@ -346,9 +342,7 @@ nav h2 {
 }
 
 .news_header {
-    max-width: 1175px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1155px;
     margin: 0 auto;
     margin-bottom: 37px;
 }
@@ -421,9 +415,7 @@ nav h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1175px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1155px;
     margin: 0 auto;
     margin-bottom: -7px;
 }
@@ -448,9 +440,7 @@ nav h2 {
 }
 
 .tweets_container {
-    max-width: 1175px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1155px;
     margin: 0 auto;
     margin-top: 12px;
     display: grid;
@@ -520,9 +510,7 @@ footer {
 }
 
 .footer_container {
-    max-width: 1175px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1155px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
