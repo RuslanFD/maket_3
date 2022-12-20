@@ -166,6 +166,7 @@ nav h2 {
     line-height: 24px;
     letter-spacing: 0.05em;
     font-weight: 400;
+    max-width: 600px;
 }
 
 .hero > .container > img {
@@ -418,6 +419,8 @@ nav h2 {
     min-height: 267px;
 }
 
+/*   ---   Section "tweets"   ---   */
+
 .tweets_header {
     display: flex;
     justify-content: space-between;
@@ -583,8 +586,18 @@ footer hr {
 
 
 @media screen and (max-width: 1099px) {
+
+    .language {
+        font-size: 19px;
+        width: 105px;
+    }
+
+    .bt_user {
+        height: 42px;
+    }
     
     .bt_btc {
+        height: 42px;
         margin-left: 60px;
         margin-right: 15px;
     }
@@ -604,7 +617,19 @@ footer hr {
         width: 350px;
     }
 
-    /* main-info-cripto */
+    .hero > .container > h3 {
+        font-size: 29px;
+    }
+
+    .hero > .container > h5 {
+        font-size: 19px;
+    }
+
+    .line1 {
+        margin-top: 60px;
+    }
+
+    /* main-info-cripto MEDIA */
 
     .cripto_grid {
         display: grid;
@@ -624,10 +649,30 @@ footer hr {
         justify-content: center;
     }
 
+    .main_cripto h3 {
+        font-size: 30px;
+    }
+
+    .main_cripto p {
+        font-size: 19px;
+    }
+
+    .main_cripto span {
+        font-size: 25px;
+    }
+
+    .main_cripto a {
+        font-size: 19px;
+    }
+
+    .start, .rewiew {
+        font-size: 19px;
+    }
+
     .main_cripto .arrow {
         background-image: url(../img/arrow_blue.svg);
         background-repeat: no-repeat;
-        background-position: 345px;
+        background-position: 385px;
         width: 100%;
         height: 20px;
         margin-bottom: 26px;
@@ -647,18 +692,38 @@ footer hr {
     }
 
     .bitcoin .a {
-        background-position: 210px;
+        background-position: 190px;
     }
     
     .litecoin .a {
-        background-position: 202px;
+        background-position: 185px;
     }
 
     .dash .a {
-        background-position: 220px;
+        background-position: 205px;
     }
 
-    /* Section main_news */
+    /* Section main_news MEDIA */
+
+    .news_header h3 {
+        font-size: 32px;
+    }
+
+    .advertisement h3, .news h3, .actions h3 {
+        font-size: 19px;
+    }
+
+    .advertisement h2, .news h2, .actions h2 {
+        font-size: 29px;
+    }
+
+    .advertisement p, .news p, .actions p {
+        font-size: 19px;
+    }
+
+    .advertisement span, .news span, .actions span {
+        font-size: 19px;
+    }
 
     .main_news > .container {
         display: flex;
@@ -670,4 +735,81 @@ footer hr {
         max-width: 600px;
         margin-bottom: 20px;
     }
+
+    /*   ---   Section "tweets"  MEDIA  ---   */
+
+    .tweets_header h3 {
+        font-size: 32px;
+    }
+
+    .bt_read {
+        height: 42px;
+        font-size: 19px;
+    }
+
+    .tweet_autor h4 {
+        font-size: 17px;
+    }
+
+    .tweet_contents p {
+        font-size: 17px;
+    }
+
+    .tweet_1, .tweet_2, .tweet_3 {
+        margin-bottom: 20px;
+    }
+
+    .tweets_container {
+        grid-template-columns: 346px 346px;
+        justify-content: space-around;
+    }
+
+    /*   ---   F-O-O-T-E-R   MEDIA   ---   */
+
+    .bt_btc_ft {
+        height: 42px;
+    }
+
+    footer a {
+        font-size: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 799px) {
+
+    .main_container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .currents_info {
+        max-width: 320px;
+    }
+
+    .nav_menu {
+        width: calc(100%/12*12);
+        margin-top: 20px;
+    }
+    
+    .bt_btc {
+        margin-left: 0px;
+    }
+
+    .hero > .container > img {
+        display: none;
+    }
+
+    .hero > .container {
+        margin-top: 50px;
+    }
+
+    /*   ---   Section "tweets"  MEDIA  ---   */
+
+    .tweets_container {
+        grid-template-columns: 346px;
+        justify-content: space-around;
+    }
+
 }
