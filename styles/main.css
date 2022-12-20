@@ -85,6 +85,10 @@ nav ul {
     align-items: center;  
 }
 
+.nav_menu li {
+    padding-left: 7px;
+}
+
 .main_href {
     border-bottom: 2px solid #ffffff;
 }
@@ -579,4 +583,77 @@ footer hr {
 
 @media screen and (max-width: 1099px) {
     
+    .bt_btc {
+        margin-left: 60px;
+        margin-right: 15px;
+    }
+
+    .main_href {
+        border: 0px;
+    }
+
+    nav ul {
+        margin-right: 15px;
+    }
+
+    .hero > .container > img {
+        position: absolute;
+        top: -115px;
+        right: 20px;
+        width: 350px;
+    }
+
+    /* main-info-cripto */
+
+    .cripto_grid {
+        display: grid;
+        grid-template-columns: 271px 268px;
+        grid-template-rows: 70px 60px 60px 60px;
+        text-align: center;
+        grid-template-areas:
+        "a a"
+        "b c"
+        "d e"
+        "f f";
+    }
+
+    .main_cripto > .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main_cripto .arrow {
+        background-image: url(../img/arrow_blue.svg);
+        background-repeat: no-repeat;
+        background-position: 345px;
+        width: 100%;
+        height: 20px;
+        margin-bottom: 26px;
+        text-align: center;
+    }
+
+    .bitcoin, .litecoin, .dash {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 35px #D5D5E3;
+        border-radius: 5px;
+        padding: 10px 35px;
+        width: 550px;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bitcoin .a {
+        background-position: 210px;
+    }
+    
+    .litecoin .a {
+        background-position: 202px;
+    }
+
+    .dash .a {
+        background-position: 220px;
+    }
 }
