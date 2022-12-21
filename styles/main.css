@@ -583,9 +583,19 @@ footer hr {
     background-color: #CCD4DC;
 }
 
+@media screen and (max-width: 1315px) {
+    .hero > .container > img {
+        position: absolute;
+        top: 171px;
+        right: 0px;
+    }
 
+    .hero > .container {
+        position: static;
+    }
+}
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 1129px) {
 
     .language {
         font-size: 19px;
@@ -608,6 +618,10 @@ footer hr {
 
     nav ul {
         margin-right: 15px;
+    }
+
+    .hero > .container {
+        position: relative;
     }
 
     .hero > .container > img {
