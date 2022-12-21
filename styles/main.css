@@ -583,6 +583,8 @@ footer hr {
     background-color: #CCD4DC;
 }
 
+
+
 @media screen and (max-width: 1315px) {
     .hero > .container > img {
         position: absolute;
@@ -593,7 +595,9 @@ footer hr {
     .hero > .container {
         position: static;
     }
+
 }
+
 
 @media screen and (max-width: 1129px) {
 
@@ -857,6 +861,7 @@ footer hr {
     }
 
 }
+
 
 @media screen and (max-width: 479px) {
     .currents_info {
