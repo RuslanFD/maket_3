@@ -33,7 +33,7 @@ main {
 }
 
 .currents_info {
-    max-width: 642px;
+    width: 642px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -180,6 +180,7 @@ nav h2 {
     height: 42px;
     background: #ffffff;
     border: 1.5px solid #FFFFFF;
+    color: #5a44b3;
     border-radius: 21px;
     cursor: pointer;
     margin-top: 2px;
@@ -554,8 +555,7 @@ footer ul {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 539px;
-    padding-top: 16px;
-    padding-bottom: 25px;
+    padding: 16px 2px 25px 5px;    
 }
 
 footer a {
@@ -670,12 +670,8 @@ footer hr {
     }
 
     .main_cripto .arrow {
-        background-image: url(../img/arrow_blue.svg);
-        background-repeat: no-repeat;
-        background-position: 385px;
-        width: 100%;
-        height: 20px;
-        margin-bottom: 26px;
+        background-position: 250px;
+        width: 300px;
         text-align: center;
     }
 
@@ -761,6 +757,7 @@ footer hr {
 
     .tweets_container {
         grid-template-columns: 346px 346px;
+        grid-template-rows: 350px;
         justify-content: space-around;
     }
 
@@ -785,7 +782,7 @@ footer hr {
     }
 
     .currents_info {
-        max-width: 320px;
+        width: 320px;
     }
 
     .nav_menu {
@@ -841,11 +838,16 @@ footer hr {
         justify-content: space-around;
     }
 
+    footer ul {
+        padding: 10px 5px 0px 5px;
+    }
+
 }
 
 @media screen and (max-width: 479px) {
     .currents_info {
         flex-flow: column;
+        width: 145px;
     }
 
     main {
@@ -863,6 +865,15 @@ footer hr {
 
     .bt_btc {
         margin: 0 auto;
+    }
+
+    .hero > .container > h5 {
+        color: #333333;
+    }
+
+    .registration {
+        background-color: #5a44b3;
+        color: #FFFFFF;
     }
 
     .main_cripto {
@@ -885,12 +896,20 @@ footer hr {
         background-position: 85px;
     }
 
-    .main_container {
-        background-size: cover;
-    }
-
     .bitcoin, .litecoin, .dash {
         padding: 5px;
+    }
+
+    .advertisement, .news, .actions {
+        padding: 8px 12px;
+    }
+
+    .tweet_1_img, .tweet_2_img, .tweet_3_img {
+        width: 290px;
+    }
+
+    .tweets_container {
+        grid-template-columns: 290px;
     }
 
 }
