@@ -33,7 +33,7 @@ main {
 }
 
 .currents_info {
-    width: 642px;
+    max-width: 642px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -844,5 +844,53 @@ footer hr {
 }
 
 @media screen and (max-width: 479px) {
+    .currents_info {
+        flex-flow: column;
+    }
+
+    main {
+        height: 100%;
+    }
+
+    .nav_menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul {
+        margin: 20px 0px;
+    }
+
+    .bt_btc {
+        margin: 0 auto;
+    }
+
+    .main_cripto {
+        margin-top: 70px;
+    }
+
+    .cripto_grid {
+        grid-template-columns: 150px 140px;
+    }
+
+    .bitcoin .a {
+        background-position: 75px;
+    }
     
+    .litecoin .a {
+        background-position: 65px;
+    }
+
+    .dash .a {
+        background-position: 85px;
+    }
+
+    .main_container {
+        background-size: cover;
+    }
+
+    .bitcoin, .litecoin, .dash {
+        padding: 5px;
+    }
+
 }
